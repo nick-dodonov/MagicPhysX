@@ -8,10 +8,10 @@ name = "magicphysx"
 crate-type = ["cdylib"]
 
 [dependencies]
-physx-sys = "0.11.1"
+physx-sys = "0.11.5"
 
 [dev-dependencies]
-regex = "1.7.3"
+regex = "1.9.0"
 
 [build-dependencies]
-csbindgen = "1.7.3"
+csbindgen = "1.9.0"
